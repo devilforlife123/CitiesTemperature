@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7316DFF6BE89E6022019EAAC /* Pods_CitiesTemperature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE582B934E0C1077429A127F /* Pods_CitiesTemperature.framework */; };
+		D612B3F11E413457004D2548 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612B3F01E413457004D2548 /* GradientView.swift */; };
 		D64BC8361E411F4A00166F88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64BC8351E411F4A00166F88 /* AppDelegate.swift */; };
 		D64BC83B1E411F4A00166F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64BC8391E411F4A00166F88 /* Main.storyboard */; };
 		D64BC83D1E411F4A00166F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64BC83C1E411F4A00166F88 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		371EEC034D28C0A26C1C3669 /* Pods-CitiesTemperature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiesTemperature.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CitiesTemperature/Pods-CitiesTemperature.debug.xcconfig"; sourceTree = "<group>"; };
 		67AC5F0B98DE2C7B5C84D4E8 /* Pods-CitiesTemperature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiesTemperature.release.xcconfig"; path = "Pods/Target Support Files/Pods-CitiesTemperature/Pods-CitiesTemperature.release.xcconfig"; sourceTree = "<group>"; };
 		CE582B934E0C1077429A127F /* Pods_CitiesTemperature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitiesTemperature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D612B3F01E413457004D2548 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D64BC8321E411F4A00166F88 /* CitiesTemperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiesTemperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64BC8351E411F4A00166F88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D64BC83A1E411F4A00166F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		D64BC84B1E4131DA00166F88 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D612B3F01E413457004D2548 /* GradientView.swift */,
 				D64BC84D1E41322600166F88 /* CityCell.swift */,
 			);
 			name = Views;
@@ -286,6 +289,7 @@
 			files = (
 				D64BC8501E41322E00166F88 /* DataProvider.swift in Sources */,
 				D64BC8581E41324A00166F88 /* WeatherProvider.swift in Sources */,
+				D612B3F11E413457004D2548 /* GradientView.swift in Sources */,
 				D64BC85A1E41325400166F88 /* FetchOperation.swift in Sources */,
 				D64BC84E1E41322600166F88 /* CityCell.swift in Sources */,
 				D64BC8361E411F4A00166F88 /* AppDelegate.swift in Sources */,
@@ -457,6 +461,7 @@
 				D64BC8461E411F4A00166F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
